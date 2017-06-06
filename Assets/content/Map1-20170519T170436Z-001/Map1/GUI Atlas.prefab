@@ -1,0 +1,410 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1387286697253908}
+  m_IsPrefabParent: 1
+--- !u!1 &1387286697253908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4796981960343638}
+  - component: {fileID: 114710937687918356}
+  m_Layer: 0
+  m_Name: GUI Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4796981960343638
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387286697253908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114710937687918356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387286697253908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b80d7c2ea2ecc16469eaac22c304c591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 57d2b4fd47a47064580e6ae1931776b2, type: 2}
+  sprites:
+  - name: 6375612d32
+    outer:
+      x: 1424
+      y: 439
+      width: 454
+      height: 528
+    inner:
+      x: 1424
+      y: 439
+      width: 454
+      height: 528
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 746163646f6e672d312d31
+    outer:
+      x: 3030
+      y: 1870
+      width: 720
+      height: 80
+    inner:
+      x: 3030
+      y: 1870
+      width: 720
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.0013888889
+    paddingTop: 0
+    paddingBottom: 0.0125
+  - name: 72656d637561
+    outer:
+      x: 2452
+      y: 1354
+      width: 280
+      height: 694
+    inner:
+      x: 2452
+      y: 1354
+      width: 280
+      height: 694
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 7472616e682d31
+    outer:
+      x: 2452
+      y: 387
+      width: 173
+      height: 190
+    inner:
+      x: 2452
+      y: 387
+      width: 173
+      height: 190
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 6c61796572312d32
+    outer:
+      x: 2215
+      y: 304
+      width: 221
+      height: 318
+    inner:
+      x: 2215
+      y: 304
+      width: 221
+      height: 318
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 637561736f2d32
+    outer:
+      x: 1975
+      y: 1551
+      width: 476
+      height: 497
+    inner:
+      x: 1975
+      y: 1551
+      width: 476
+      height: 497
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 62696e68686f61
+    outer:
+      x: 2452
+      y: 803
+      width: 162
+      height: 335
+    inner:
+      x: 2452
+      y: 803
+      width: 162
+      height: 335
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 7472616e682d32
+    outer:
+      x: 2452
+      y: 196
+      width: 173
+      height: 190
+    inner:
+      x: 2452
+      y: 196
+      width: 173
+      height: 190
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 636f742d32
+    outer:
+      x: 2198
+      y: 624
+      width: 216
+      height: 926
+    inner:
+      x: 2198
+      y: 624
+      width: 216
+      height: 926
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 6768656e676f69
+    outer:
+      x: 1975
+      y: 260
+      width: 239
+      height: 362
+    inner:
+      x: 1975
+      y: 260
+      width: 239
+      height: 362
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 626b672d31
+    outer:
+      x: 0
+      y: 968
+      width: 1974
+      height: 1080
+    inner:
+      x: 0
+      y: 968
+      width: 1974
+      height: 1080
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 746163646f6e672d32
+    outer:
+      x: 1975
+      y: 88
+      width: 412
+      height: 171
+    inner:
+      x: 1975
+      y: 88
+      width: 412
+      height: 171
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.0116959065
+    paddingBottom: 0
+  - name: 6375612d31
+    outer:
+      x: 629
+      y: 439
+      width: 794
+      height: 528
+    inner:
+      x: 629
+      y: 439
+      width: 794
+      height: 528
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 746163646f6e672d34
+    outer:
+      x: 2452
+      y: 578
+      width: 242
+      height: 224
+    inner:
+      x: 2452
+      y: 578
+      width: 242
+      height: 224
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 6f6e6774686f6e676b6869
+    outer:
+      x: 2733
+      y: 1951
+      width: 1157
+      height: 97
+    inner:
+      x: 2733
+      y: 1951
+      width: 1157
+      height: 97
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 746163646f6e672d35
+    outer:
+      x: 629
+      y: 230
+      width: 751
+      height: 208
+    inner:
+      x: 629
+      y: 230
+      width: 751
+      height: 208
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.009615385
+    paddingBottom: 0
+  - name: 637561736f2d31
+    outer:
+      x: 2452
+      y: 1139
+      width: 276
+      height: 214
+    inner:
+      x: 2452
+      y: 1139
+      width: 276
+      height: 214
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 636f742d31
+    outer:
+      x: 1975
+      y: 623
+      width: 222
+      height: 927
+    inner:
+      x: 1975
+      y: 623
+      width: 222
+      height: 927
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 746163646f6e672d312d32
+    outer:
+      x: 629
+      y: 117
+      width: 665
+      height: 112
+    inner:
+      x: 629
+      y: 117
+      width: 665
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 64656e2d31
+    outer:
+      x: 0
+      y: 150
+      width: 628
+      height: 817
+    inner:
+      x: 0
+      y: 150
+      width: 628
+      height: 817
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 6c61796572312d31
+    outer:
+      x: 1424
+      y: 123
+      width: 473
+      height: 315
+    inner:
+      x: 1424
+      y: 123
+      width: 473
+      height: 315
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 746163646f6e672d33
+    outer:
+      x: 2733
+      y: 1681
+      width: 296
+      height: 269
+    inner:
+      x: 2733
+      y: 1681
+      width: 296
+      height: 269
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

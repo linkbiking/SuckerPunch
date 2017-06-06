@@ -1,0 +1,1360 @@
+fileFormatVersion: 2
+guid: d2c9cd2f43d9ad842bf4cd9b6ea49cab
+timeCreated: 1494352001
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bake_leftBall_result_JNT
+    100002: Bake_leftFoot_result_JNT
+    100004: Bake_leftForeArm_seg5_JNT
+    100006: Bake_leftHand_end_result_JNT
+    100008: Bake_leftMiddleBase1_Orient_JNT
+    100010: Bake_leftMiddleBase2_Orient_JNT
+    100012: Bake_leftMiddleBase3_Orient_JNT
+    100014: Bake_leftMiddleBase4_Orient_JNT
+    100016: Bake_leftMiddleBase_result_JNT
+    100018: Bake_leftShin_result_JNT
+    100020: Bake_leftShoulderBase_result_JNT
+    100022: Bake_leftShoulderEnd_result_JNT
+    100024: Bake_leftThigh_result_JNT
+    100026: Bake_leftThumbBase1_Orient_JNT
+    100028: Bake_leftThumbBase2_Orient_JNT
+    100030: Bake_leftThumbBase3_Orient_JNT
+    100032: Bake_leftThumbBase_result_JNT
+    100034: Bake_leftToe_result_JNT
+    100036: Bake_leftUpperArm_seg1_JNT
+    100038: Bake_leftUpperArm_seg5_JNT
+    100040: Bake_neck_base_result_JNT
+    100042: Bake_neck_end_result_JNT
+    100044: Bake_neck_mid1_result_JNT
+    100046: Bake_neck_mid2_result_JNT
+    100048: Bake_rightBall_result_JNT
+    100050: Bake_rightFoot_result_JNT
+    100052: Bake_rightForeArm_seg5_JNT
+    100054: Bake_rightHand_end_result_JNT
+    100056: Bake_rightMiddleBase1_Orient_JNT
+    100058: Bake_rightMiddleBase2_Orient_JNT
+    100060: Bake_rightMiddleBase3_Orient_JNT
+    100062: Bake_rightMiddleBase4_Orient_JNT
+    100064: Bake_rightMiddleBase_result_JNT
+    100066: Bake_rightShin_result_JNT
+    100068: Bake_rightShoulderBase_result_JNT
+    100070: Bake_rightShoulderEnd_result_JNT
+    100072: Bake_rightThigh_result_JNT
+    100074: Bake_rightThumbBase1_Orient_JNT
+    100076: Bake_rightThumbBase2_Orient_JNT
+    100078: Bake_rightThumbBase3_Orient_JNT
+    100080: Bake_rightThumbBase_result_JNT
+    100082: Bake_rightToe_result_JNT
+    100084: Bake_rightUpperArm_seg1_JNT
+    100086: Bake_rightUpperArm_seg5_JNT
+    100088: Bake_spine1_JNT
+    100090: Bake_spine2_JNT
+    100092: Bake_spine3_JNT
+    100094: Bake_spine4_JNT
+    100096: Bake_spine5_JNT
+    100098: Bake_spine6_JNT
+    100100: Bake_spine7_JNT
+    100102: default4
+    100104: //RootNode
+    100106: Gun
+    100108: Gun_JNT
+    100110: Root_JNT
+    100112: Sword
+    100114: Sword_JNT
+    400000: Bake_leftBall_result_JNT
+    400002: Bake_leftFoot_result_JNT
+    400004: Bake_leftForeArm_seg5_JNT
+    400006: Bake_leftHand_end_result_JNT
+    400008: Bake_leftMiddleBase1_Orient_JNT
+    400010: Bake_leftMiddleBase2_Orient_JNT
+    400012: Bake_leftMiddleBase3_Orient_JNT
+    400014: Bake_leftMiddleBase4_Orient_JNT
+    400016: Bake_leftMiddleBase_result_JNT
+    400018: Bake_leftShin_result_JNT
+    400020: Bake_leftShoulderBase_result_JNT
+    400022: Bake_leftShoulderEnd_result_JNT
+    400024: Bake_leftThigh_result_JNT
+    400026: Bake_leftThumbBase1_Orient_JNT
+    400028: Bake_leftThumbBase2_Orient_JNT
+    400030: Bake_leftThumbBase3_Orient_JNT
+    400032: Bake_leftThumbBase_result_JNT
+    400034: Bake_leftToe_result_JNT
+    400036: Bake_leftUpperArm_seg1_JNT
+    400038: Bake_leftUpperArm_seg5_JNT
+    400040: Bake_neck_base_result_JNT
+    400042: Bake_neck_end_result_JNT
+    400044: Bake_neck_mid1_result_JNT
+    400046: Bake_neck_mid2_result_JNT
+    400048: Bake_rightBall_result_JNT
+    400050: Bake_rightFoot_result_JNT
+    400052: Bake_rightForeArm_seg5_JNT
+    400054: Bake_rightHand_end_result_JNT
+    400056: Bake_rightMiddleBase1_Orient_JNT
+    400058: Bake_rightMiddleBase2_Orient_JNT
+    400060: Bake_rightMiddleBase3_Orient_JNT
+    400062: Bake_rightMiddleBase4_Orient_JNT
+    400064: Bake_rightMiddleBase_result_JNT
+    400066: Bake_rightShin_result_JNT
+    400068: Bake_rightShoulderBase_result_JNT
+    400070: Bake_rightShoulderEnd_result_JNT
+    400072: Bake_rightThigh_result_JNT
+    400074: Bake_rightThumbBase1_Orient_JNT
+    400076: Bake_rightThumbBase2_Orient_JNT
+    400078: Bake_rightThumbBase3_Orient_JNT
+    400080: Bake_rightThumbBase_result_JNT
+    400082: Bake_rightToe_result_JNT
+    400084: Bake_rightUpperArm_seg1_JNT
+    400086: Bake_rightUpperArm_seg5_JNT
+    400088: Bake_spine1_JNT
+    400090: Bake_spine2_JNT
+    400092: Bake_spine3_JNT
+    400094: Bake_spine4_JNT
+    400096: Bake_spine5_JNT
+    400098: Bake_spine6_JNT
+    400100: Bake_spine7_JNT
+    400102: default4
+    400104: //RootNode
+    400106: Gun
+    400108: Gun_JNT
+    400110: Root_JNT
+    400112: Sword
+    400114: Sword_JNT
+    2300000: Gun
+    2300002: Sword
+    3300000: Gun
+    3300002: Sword
+    4300000: Gun
+    4300002: Sword
+    4300004: default4
+    7400000: Take 001
+    7400002: run
+    7400004: jump
+    7400006: shot1
+    7400008: shot2
+    7400010: sword
+    7400012: sword2
+    7400014: fall
+    9500000: //RootNode
+    13700000: default4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 102
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: default4
+        weight: 1
+      - path: Root_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT/Bake_leftMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT/Bake_leftShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT/Bake_leftToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT/Bake_leftThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT/Gun
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT/Sword
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT/Bake_rightMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT/Bake_rightShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT/Bake_rightToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT/Bake_rightThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT/Bake_rightHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT/Bake_spine7_JNT
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: default4
+        weight: 1
+      - path: Root_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT/Bake_leftMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT/Bake_leftShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT/Bake_leftToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT/Bake_leftThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT/Gun
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT/Sword
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT/Bake_rightMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT/Bake_rightShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT/Bake_rightToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT/Bake_rightThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT/Bake_rightHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT/Bake_spine7_JNT
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 24
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: default4
+        weight: 1
+      - path: Root_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT/Bake_leftMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT/Bake_leftShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT/Bake_leftToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT/Bake_leftThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT/Gun
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT/Sword
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT/Bake_rightMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT/Bake_rightShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT/Bake_rightToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT/Bake_rightThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT/Bake_rightHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT/Bake_spine7_JNT
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shot1
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: default4
+        weight: 1
+      - path: Root_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT/Bake_leftMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT/Bake_leftShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT/Bake_leftToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT/Bake_leftThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT/Gun
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT/Sword
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT/Bake_rightMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT/Bake_rightShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT/Bake_rightToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT/Bake_rightThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT/Bake_rightHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT/Bake_spine7_JNT
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shot2
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: default4
+        weight: 1
+      - path: Root_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT/Bake_leftMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT/Bake_leftShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT/Bake_leftToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT/Bake_leftThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT/Gun
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT/Sword
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT/Bake_rightMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT/Bake_rightShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT/Bake_rightToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT/Bake_rightThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT/Bake_rightHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT/Bake_spine7_JNT
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sword
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: default4
+        weight: 1
+      - path: Root_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT/Bake_leftMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT/Bake_leftShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT/Bake_leftToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT/Bake_leftThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT/Gun
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT/Sword
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT/Bake_rightMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT/Bake_rightShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT/Bake_rightToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT/Bake_rightThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT/Bake_rightHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT/Bake_spine7_JNT
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sword2
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 102
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: default4
+        weight: 1
+      - path: Root_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT/Bake_leftMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT/Bake_leftShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT/Bake_leftToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT/Bake_leftThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT/Gun
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT/Sword
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT/Bake_rightMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT/Bake_rightShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT/Bake_rightToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT/Bake_rightThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT/Bake_rightHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT/Bake_spine7_JNT
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fall
+      takeName: Take 001
+      firstFrame: 34
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: default4
+        weight: 1
+      - path: Root_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftMiddleBase_result_JNT/Bake_leftMiddleBase1_Orient_JNT/Bake_leftMiddleBase2_Orient_JNT/Bake_leftMiddleBase3_Orient_JNT/Bake_leftMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftShoulderBase_result_JNT/Bake_leftShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThigh_result_JNT/Bake_leftShin_result_JNT/Bake_leftFoot_result_JNT/Bake_leftBall_result_JNT/Bake_leftToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftThumbBase_result_JNT/Bake_leftThumbBase1_Orient_JNT/Bake_leftThumbBase2_Orient_JNT/Bake_leftThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Gun_JNT/Gun
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT
+        weight: 1
+      - path: Root_JNT/Bake_leftUpperArm_seg1_JNT/Bake_leftUpperArm_seg5_JNT/Bake_leftForeArm_seg5_JNT/Bake_leftHand_end_result_JNT/Sword_JNT/Sword
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT/Bake_rightMiddleBase2_Orient_JNT/Bake_rightMiddleBase3_Orient_JNT/Bake_rightMiddleBase4_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightShoulderBase_result_JNT/Bake_rightShoulderEnd_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThigh_result_JNT/Bake_rightShin_result_JNT/Bake_rightFoot_result_JNT/Bake_rightBall_result_JNT/Bake_rightToe_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightThumbBase_result_JNT/Bake_rightThumbBase1_Orient_JNT/Bake_rightThumbBase2_Orient_JNT/Bake_rightThumbBase3_Orient_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_rightUpperArm_seg1_JNT/Bake_rightUpperArm_seg5_JNT/Bake_rightForeArm_seg5_JNT/Bake_rightHand_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT
+        weight: 1
+      - path: Root_JNT/Bake_spine1_JNT/Bake_spine2_JNT/Bake_spine3_JNT/Bake_spine4_JNT/Bake_spine5_JNT/Bake_spine6_JNT/Bake_spine7_JNT
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
