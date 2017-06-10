@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
     }
 
     public Animator animator;
-
+    public GameObject Player;
     public GameObject sword;
     public GameObject gun;
 
@@ -72,7 +72,9 @@ public class PlayerController : MonoBehaviour
 
         TurnOffSword();
         TurnOffGun();
-
+        Player = GameObject.Find("Player");
+       
+        Owner = transform.Find("Player");
     }
 
     // Update is called once per frame
@@ -106,21 +108,46 @@ public class PlayerController : MonoBehaviour
             else 
                 ChangeRageState(RAGE_STATE.LOW);
         }
-        else if (Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
-//            PhongDay(Vector3 pos, Transform targetObjs)
-//            {
-//            	StartPhongDay();
-//            }
+            phiday();
+            
+            
         }
+        else if (Input.GetKeyUp(KeyCode.D))
+        {
+            StartCoroutine(StartRotate());
+        }
+
+
+       
         CheckFall();
         //run
 		if (m_state != PLAYER_STATE.DEATH && m_state != PLAYER_STATE.STOP && isRun)
             RunProcess();
-
+    
         
     }
-
+    private void phiday()
+    {
+        
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            
+            GameObject sphereInstance = Instantiate(spherePrefab,new Vector3(Player.transform.position.x+8,Player.transform.position.y+8),Quaternion.identity)  as GameObject;
+            Player.transform.parent = sphereInstance.transform;
+            
+            
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            
+            Vector3 newposi = Vector3.MoveTowards(Start_day.transform.position, End.transform.position,  Time.deltaTime);
+            float step = 2 * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(Start_day.transform.position, newposi, step);
+        }
+    }
+   
     private void CheckFall()
     {
         if (this.m_rigidbody.velocity.y < -1)
@@ -188,6 +215,32 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+    IEnumerator StartRotate()
+    {
+        
+        m_rigidbody.useGravity = false;
+        yield return new WaitForSeconds(rotDuration);
+        Player.transform.parent = null;
+        Debug.Log("Test");
+        m_rigidbody.useGravity = true;
+        m_rigidbody.velocity += Vector3.up * 5f;
+        transform.rotation = Quaternion.identity;
+       StopAllCoroutines();
+
+    }
+  
+   
+    public float rotDuration = 0.6f;
+    public float roundsPerSec = 0.8f;
+    private Vector3 dir = Vector3.forward;
+    public Transform Start_day;
+    public Transform End;
+    public Transform Owner;
+    private float dist;
+    public GameObject Char;
+    public GameObject spherePrefab;
+    public float m_mag;
+    private GameManager  sphereInstance;
 
     private void ChemProcess()
     {
