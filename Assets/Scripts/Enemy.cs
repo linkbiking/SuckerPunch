@@ -52,7 +52,4 @@ public class Enemy : MonoBehaviour
         //this.OnHit();
     }
 
-
-
-
 }
