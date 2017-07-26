@@ -81,23 +81,23 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //Make jump.
-        /*if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
-        {
-            Debug.Log("Jump");
-            JumpProcess();
-        }*/
+        //if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
+        //{
+        //    Debug.Log("Jump");
+        //    JumpProcess();
+        //}
 
-         if (Input.GetKeyUp(KeyCode.A))
+        if (Input.GetKeyUp(KeyCode.A))
         {
             Debug.Log("velo: " + m_rigidbody.velocity);
         }
         else if (Input.GetKeyDown(KeyCode.Z))
         {
-            ChemProcess();
+            //ChemProcess();
         }
         else if (Input.GetKeyDown(KeyCode.X))
         {
-            FireProcess();
+            //FireProcess();
         }
         else if (Input.GetKeyDown(KeyCode.C))
         {
@@ -110,13 +110,13 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            phiday();
+            //phiday();
             
             
         }
         else if (Input.GetKeyUp(KeyCode.D))
         {
-            StartCoroutine(StartRotate());
+           // StartCoroutine(StartRotate());
         }
 
 
@@ -153,7 +153,10 @@ public class PlayerController : MonoBehaviour
         if (this.m_rigidbody.velocity.y < -1)
         {
             m_state = PLAYER_STATE.FALL;
-            this.animator.Play("Fall");
+            this.animator.SetBool("Fall",true);
+            this.animator.SetBool("Jump", false);
+            // this.animator.Play("Fall");
+            
         }
     }
 
@@ -190,6 +193,7 @@ public class PlayerController : MonoBehaviour
     {
         if (m_state != PLAYER_STATE.DEATH && m_state != PLAYER_STATE.STOP && m_state != PLAYER_STATE.DOUBLE_JUMP)
         {
+
             m_rigidbody.velocity += Vector3.up * JUMP_FORCE;
             if (this.m_state == PLAYER_STATE.JUMP)
             {
@@ -197,6 +201,7 @@ public class PlayerController : MonoBehaviour
                 if (animator)
                 {
                     animator.SetBool("Jump", true);
+                    animator.SetBool("Fall", false);
                     //animator.Play("Jump");
                     Debug.Log("ANIM JUMP");
                 }
@@ -207,6 +212,8 @@ public class PlayerController : MonoBehaviour
                 if (animator)
                 {
                     animator.SetBool("Jump", true);
+                    animator.SetBool("Fall", false);
+                    //animator.SetTrigger("DoubleJump");
                     //animator.Play("Jump");
                     Debug.Log("ANIM JUMP");
                 }
@@ -242,7 +249,7 @@ public class PlayerController : MonoBehaviour
     public float m_mag;
     private GameManager  sphereInstance;
 
-    private void ChemProcess()
+    public void ChemProcess()
     {
         if (animator)
             animator.Play("chem1", -1, 0f);
@@ -254,7 +261,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-    private void FireProcess()
+    public void FireProcess()
     {
         if (animator)
             animator.Play("shot1");
