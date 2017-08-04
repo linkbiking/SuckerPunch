@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: cc7a4fcc547a3a54781e9be79d686a3a
-timeCreated: 1501521580
+guid: 18478a0726a72cd4a82ca9f71d726645
+timeCreated: 1501856882
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -56,22 +56,41 @@ ModelImporter:
     100096: Bake_spine5_JNT
     100098: Bake_spine6_JNT
     100100: Bake_spine7_JNT
-    100102: //RootNode
-    100104: joint2
-    100106: joint2 1
-    100108: joint3
-    100110: joint3 1
-    100112: joint4
-    100114: joint4 1
-    100116: joint5
-    100118: joint5 1
-    100120: leftFront_JNT
-    100122: right_Front_JNT
-    100124: Root_JNT
-    100126: Samurai001
-    100128: Samurai_Sword
-    100130: transform1
-    100132: transform2
+    100102: baseCurve2
+    100104: //RootNode
+    100106: follicle1
+    100108: Hair1_JNT
+    100110: Hair2_JNT
+    100112: Hair2_JNT1
+    100114: Hair2_JNT2
+    100116: Hair2_JNT3
+    100118: Hair2_JNT3 1
+    100120: Hair2_JNT4
+    100122: Hair2_JNT5
+    100124: Hair2_JNT6
+    100126: Hair2_JNT7
+    100128: Hair2_JNT8
+    100130: Hair2_JNT9
+    100132: Hair3_JNT
+    100134: Hair4_JNT
+    100136: Hair5_JNT
+    100138: Hair5_JNT 1
+    100140: Hair_JNT
+    100142: joint2
+    100144: joint2 1
+    100146: joint3
+    100148: joint3 1
+    100150: joint4
+    100152: joint4 1
+    100154: joint5
+    100156: joint5 1
+    100158: leftFront_JNT
+    100160: right_Front_JNT
+    100162: Root_JNT
+    100164: Samurai001
+    100166: Samurai_Sword
+    100168: transform1
+    100170: transform2
     400000: Bake_leftBall_result_JNT
     400002: Bake_leftFoot_result_JNT
     400004: Bake_leftForeArm_result_JNT
@@ -123,22 +142,41 @@ ModelImporter:
     400096: Bake_spine5_JNT
     400098: Bake_spine6_JNT
     400100: Bake_spine7_JNT
-    400102: //RootNode
-    400104: joint2
-    400106: joint2 1
-    400108: joint3
-    400110: joint3 1
-    400112: joint4
-    400114: joint4 1
-    400116: joint5
-    400118: joint5 1
-    400120: leftFront_JNT
-    400122: right_Front_JNT
-    400124: Root_JNT
-    400126: Samurai001
-    400128: Samurai_Sword
-    400130: transform1
-    400132: transform2
+    400102: baseCurve2
+    400104: //RootNode
+    400106: follicle1
+    400108: Hair1_JNT
+    400110: Hair2_JNT
+    400112: Hair2_JNT1
+    400114: Hair2_JNT2
+    400116: Hair2_JNT3
+    400118: Hair2_JNT3 1
+    400120: Hair2_JNT4
+    400122: Hair2_JNT5
+    400124: Hair2_JNT6
+    400126: Hair2_JNT7
+    400128: Hair2_JNT8
+    400130: Hair2_JNT9
+    400132: Hair3_JNT
+    400134: Hair4_JNT
+    400136: Hair5_JNT
+    400138: Hair5_JNT 1
+    400140: Hair_JNT
+    400142: joint2
+    400144: joint2 1
+    400146: joint3
+    400148: joint3 1
+    400150: joint4
+    400152: joint4 1
+    400154: joint5
+    400156: joint5 1
+    400158: leftFront_JNT
+    400160: right_Front_JNT
+    400162: Root_JNT
+    400164: Samurai001
+    400166: Samurai_Sword
+    400168: transform1
+    400170: transform2
     2300000: Samurai_Sword
     3300000: Samurai_Sword
     4300000: Samurai001
@@ -247,6 +285,52 @@ ModelImporter:
       - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT
         weight: 1
       - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT/Hair4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT/Hair4_JNT/Hair5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT/Hair4_JNT/Hair5_JNT/Hair5_JNT
+          1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/follicle1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/follicle1/baseCurve2
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6/Hair2_JNT7
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6/Hair2_JNT7/Hair2_JNT8
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6/Hair2_JNT7/Hair2_JNT8/Hair2_JNT9
         weight: 1
       - path: Root_JNT/Bake_rightMiddleBase_result_JNT
         weight: 1
@@ -414,6 +498,52 @@ ModelImporter:
         weight: 1
       - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
         weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT/Hair4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT/Hair4_JNT/Hair5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT/Hair4_JNT/Hair5_JNT/Hair5_JNT
+          1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/follicle1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/follicle1/baseCurve2
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6/Hair2_JNT7
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6/Hair2_JNT7/Hair2_JNT8
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6/Hair2_JNT7/Hair2_JNT8/Hair2_JNT9
+        weight: 1
       - path: Root_JNT/Bake_rightMiddleBase_result_JNT
         weight: 1
       - path: Root_JNT/Bake_rightMiddleBase_result_JNT/Bake_rightMiddleBase1_Orient_JNT
@@ -579,6 +709,52 @@ ModelImporter:
       - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT
         weight: 1
       - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT/Hair4_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT/Hair4_JNT/Hair5_JNT
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair1_JNT/Hair2_JNT/Hair3_JNT/Hair4_JNT/Hair5_JNT/Hair5_JNT
+          1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/follicle1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/follicle1/baseCurve2
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6/Hair2_JNT7
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6/Hair2_JNT7/Hair2_JNT8
+        weight: 1
+      - path: Root_JNT/Bake_neck_base_result_JNT/Bake_neck_mid1_result_JNT/Bake_neck_mid2_result_JNT/Bake_neck_end_result_JNT/Hair_JNT/Hair2_JNT1/Hair2_JNT2/Hair2_JNT3/Hair2_JNT3
+          1/Hair2_JNT4/Hair2_JNT5/Hair2_JNT6/Hair2_JNT7/Hair2_JNT8/Hair2_JNT9
         weight: 1
       - path: Root_JNT/Bake_rightMiddleBase_result_JNT
         weight: 1
