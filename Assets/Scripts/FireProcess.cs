@@ -19,7 +19,7 @@ public class FireProcess : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("other.gameObject.layer: " + other.gameObject.layer);
+        //Debug.Log("other.gameObject.layer: " + other.gameObject.layer);
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {

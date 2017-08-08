@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController Instance;
+
+    
+
     public enum PLAYER_STATE
     {
         READY,
@@ -31,7 +35,22 @@ public class PlayerController : MonoBehaviour
 
     public float JUMP_SPEED;
 
-    public PLAYER_STATE m_state = PLAYER_STATE.READY;
+    public PLAYER_STATE m_state
+    {
+        get
+        {
+            return _state;
+        }
+
+        set
+        {
+            m_pre_state = _state;
+            _state = value;
+        }
+    }
+
+    private PLAYER_STATE _state = PLAYER_STATE.READY;
+    public PLAYER_STATE m_pre_state = PLAYER_STATE.READY;
 
     public RAGE_STATE m_rage_state = RAGE_STATE.LOW;
 
@@ -64,6 +83,13 @@ public class PlayerController : MonoBehaviour
     #endregion
 
     #region MonoBehavirour call backs
+
+
+    void Awake()
+    {
+        Instance = this;
+    }
+
     // Use this for initialization
     void Start()
     {
@@ -74,7 +100,6 @@ public class PlayerController : MonoBehaviour
         TurnOffGun();
         Player = GameObject.Find("Player");
        
-        Owner = transform.Find("Player");
     }
 
     // Update is called once per frame
@@ -128,26 +153,8 @@ public class PlayerController : MonoBehaviour
     
         
     }
-    private void phiday()
-    {
-        
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            
-            GameObject sphereInstance = Instantiate(spherePrefab,new Vector3(Player.transform.position.x+8,Player.transform.position.y+8),Quaternion.identity)  as GameObject;
-            Player.transform.parent = sphereInstance.transform;
-            
-            
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            
-            Vector3 newposi = Vector3.MoveTowards(Start_day.transform.position, End.transform.position,  Time.deltaTime);
-            float step = 2 * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(Start_day.transform.position, newposi, step);
-        }
-    }
-   
+
+
     private void CheckFall()
     {
         if (this.m_rigidbody.velocity.y < -1)
@@ -189,9 +196,10 @@ public class PlayerController : MonoBehaviour
     #endregion
 
     #region Private Method
+
     public void JumpProcess()
     {
-        if (m_state != PLAYER_STATE.DEATH && m_state != PLAYER_STATE.STOP && m_state != PLAYER_STATE.DOUBLE_JUMP)
+        if (m_state != PLAYER_STATE.DEATH && m_state != PLAYER_STATE.STOP && m_state != PLAYER_STATE.DOUBLE_JUMP )
         {
 
             m_rigidbody.velocity += Vector3.up * JUMP_FORCE;
@@ -200,13 +208,13 @@ public class PlayerController : MonoBehaviour
                 this.m_state = PLAYER_STATE.DOUBLE_JUMP;
                 if (animator)
                 {
-                    animator.SetBool("Jump", true);
+                    animator.SetTrigger("DoubleJump");
                     animator.SetBool("Fall", false);
                     //animator.Play("Jump");
-                    Debug.Log("ANIM JUMP");
+                    Debug.Log("ANIM DouobleJUMP");
                 }
             }
-            else
+            else if(m_state != PLAYER_STATE.DOUBLE_JUMP || m_state != PLAYER_STATE.FALL)
             {
                 this.m_state = PLAYER_STATE.JUMP;
                 if (animator)
@@ -222,32 +230,7 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-    IEnumerator StartRotate()
-    {
-        
-        m_rigidbody.useGravity = false;
-        yield return new WaitForSeconds(rotDuration);
-        Player.transform.parent = null;
-        Debug.Log("Test");
-        m_rigidbody.useGravity = true;
-        m_rigidbody.velocity += Vector3.up * 5f;
-        transform.rotation = Quaternion.identity;
-       StopAllCoroutines();
-
-    }
-  
    
-    public float rotDuration = 0.6f;
-    public float roundsPerSec = 0.8f;
-    private Vector3 dir = Vector3.forward;
-    public Transform Start_day;
-    public Transform End;
-    public Transform Owner;
-    private float dist;
-    public GameObject Char;
-    public GameObject spherePrefab;
-    public float m_mag;
-    private GameManager  sphereInstance;
 
     public void ChemProcess()
     {
@@ -362,5 +345,7 @@ public class PlayerController : MonoBehaviour
 	{
 		FireProcess ();
 	}
+
+    
     #endregion
 }
