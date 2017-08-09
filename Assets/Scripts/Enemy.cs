@@ -7,8 +7,8 @@ public class Enemy : MonoBehaviour
     public bool isMove = false;
 
     public float speed = 1f;
-
     public GameObject objDie;
+    
 
     // Use this for initialization
     void Start()
@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
 
     private void RunProcess()
     {
-        transform.position -= Vector3.right * speed * Time.deltaTime;
+      transform.position -= Vector3.right * speed * Time.deltaTime;
     }
 
     private void OnDie()

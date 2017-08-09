@@ -9,6 +9,7 @@ TagManager:
   - DeathBox
   - coin
   - tien
+  - Kiem
   layers:
   - Default
   - TransparentFX

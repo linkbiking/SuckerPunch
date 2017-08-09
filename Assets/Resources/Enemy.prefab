@@ -1037,7 +1037,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1218498776344492}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -35.13, y: -5.21, z: 0}
+  m_LocalPosition: {x: 25.93, y: 6.762, z: 0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4455238649789056}
@@ -1277,7 +1277,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: ae65ff6f76b8827489076adef5819ccf, type: 2}
+  - {fileID: 2100000, guid: 60d130d2f942552428023d1eff5b2b90, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1294,7 +1294,6 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &33929884972012652
 MeshFilter:
@@ -1313,7 +1312,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1358,7 +1357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f3b0bb0f75b0489ef1514f8f6bc1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isMove: 0
+  isMove: 1
   speed: 1
   objDie: {fileID: 1270529421512636, guid: d8611538324e5774e8d5af5d50e1f3d8, type: 2}
 --- !u!137 &137670646918306470
@@ -1374,7 +1373,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 47961f7ee08f8844e83a75ddcc654c79, type: 2}
+  - {fileID: 2100000, guid: 60d130d2f942552428023d1eff5b2b90, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1391,7 +1390,6 @@ SkinnedMeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
