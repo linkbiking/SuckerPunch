@@ -5,9 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public static PlayerController Instance;
-
     
-
     public enum PLAYER_STATE
     {
         READY,
@@ -188,7 +186,7 @@ public class PlayerController : MonoBehaviour
 			Debug.Log ("Death: " + this.name + " and with: " + other.gameObject.name);
                 PlayerDeathProcess();
                 break;
-
+           
         }
 
     }
