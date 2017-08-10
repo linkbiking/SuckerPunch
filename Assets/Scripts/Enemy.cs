@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 
     public float speed = 1f;
     public GameObject objDie;
+    public static float dis;
     
 
     // Use this for initialization
@@ -19,6 +20,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (isMove)
             RunProcess();
     }

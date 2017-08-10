@@ -74,7 +74,8 @@ public class PlayerController : MonoBehaviour
     public Transform coin;
     public Transform obstacle;
     public Transform endpoint;
-    private float dist;
+    private float map_x;
+    public GameObject[] block;
 	public bool isRun = true;
 
     private Rigidbody m_rigidbody;
@@ -103,13 +104,13 @@ public class PlayerController : MonoBehaviour
         TurnOffGun();
         Player = GameObject.Find("Player");
         callCoin();
-       
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        dist = Vector3.Distance(endpoint.position,transform.position);
+        
         
         //Make jump.
         //if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
@@ -147,8 +148,9 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetKeyUp(KeyCode.D))
         {
-           // StartCoroutine(StartRotate());
+           
         }
+        
 
 
        
@@ -159,22 +161,25 @@ public class PlayerController : MonoBehaviour
     
         
     }
-    // instance coin tren map //
+    // instance random 0-20 coin cho  moi 1 block ( block is  ground ) A Thang
     void callCoin()
     {
-      for (int i=0;i < 50; i++)
+      float  xcoin = Random.Range(0,7);
+      for (int i=0;i <xcoin; i++)
         {
             c_call();
         }
     }
     void c_call()
     {
-        float xpos = Random.Range(15, 127);
-        float ypos = Random.Range(1.5f, 10);
-        Instantiate(coin, new Vector3(Player.transform.position.x + xpos, ypos, 0), Quaternion.identity);
+        float xpos = Random.Range(-3,3);
+        Instantiate(coin, new Vector3(block[0].transform.position.x + xpos, 2, 0), Quaternion.identity);
+        Instantiate(coin, new Vector3(block[1].transform.position.x + xpos, 2, 0), Quaternion.identity);
+        Instantiate(coin, new Vector3(block[2].transform.position.x + xpos, 2, 0), Quaternion.identity);
+        Instantiate(coin, new Vector3(block[3].transform.position.x + xpos, 2, 0), Quaternion.identity);
+        Instantiate(coin, new Vector3(block[4].transform.position.x + xpos, 2, 0), Quaternion.identity);
     }
-    // instance obstacle   call prefabs
-  
+      
        
    
     private void CheckFall()
@@ -184,6 +189,7 @@ public class PlayerController : MonoBehaviour
             m_state = PLAYER_STATE.FALL;
             this.animator.SetBool("Fall",true);
             this.animator.SetBool("Jump", false);
+            
             // this.animator.Play("Fall");
             
         }
@@ -367,7 +373,7 @@ public class PlayerController : MonoBehaviour
 	{
 		FireProcess ();
 	}
-
+    
     
     #endregion
 }
