@@ -71,7 +71,10 @@ public class PlayerController : MonoBehaviour
     public GameObject spawnBullet;
 
     public GameObject bulletPrefab;
-
+    public Transform coin;
+    public Transform obstacle;
+    public Transform endpoint;
+    private float dist;
 	public bool isRun = true;
 
     private Rigidbody m_rigidbody;
@@ -86,6 +89,8 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         Instance = this;
+        //call  obstacle len map A thang
+        Instantiate(obstacle, new Vector3(14, 2, 0), Quaternion.identity);
     }
 
     // Use this for initialization
@@ -97,12 +102,15 @@ public class PlayerController : MonoBehaviour
         TurnOffSword();
         TurnOffGun();
         Player = GameObject.Find("Player");
+        callCoin();
        
     }
 
     // Update is called once per frame
     void Update()
     {
+        dist = Vector3.Distance(endpoint.position,transform.position);
+        
         //Make jump.
         //if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
         //{
@@ -151,8 +159,24 @@ public class PlayerController : MonoBehaviour
     
         
     }
-
-
+    // instance coin tren map //
+    void callCoin()
+    {
+      for (int i=0;i < 50; i++)
+        {
+            c_call();
+        }
+    }
+    void c_call()
+    {
+        float xpos = Random.Range(15, 127);
+        float ypos = Random.Range(1.5f, 10);
+        Instantiate(coin, new Vector3(Player.transform.position.x + xpos, ypos, 0), Quaternion.identity);
+    }
+    // instance obstacle   call prefabs
+  
+       
+   
     private void CheckFall()
     {
         if (this.m_rigidbody.velocity.y < -1)
