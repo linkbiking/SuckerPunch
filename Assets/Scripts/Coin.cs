@@ -4,25 +4,32 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-     Rigidbody rigi;
+    
     public static Coin Instance;
-    void start()
+    public static float c_distance;
+    void Awake()
     {
-        rigi = GetComponent<Rigidbody>();
+        Instance = this;
     }
-    void OnCollisionEnter(Collision collision)
+    
+    void Update()
     {
-        switch (collision.transform.tag)
+      if (this != null)
         {
-            
-            case "Player":
-             Destroy(gameObject);
-                break;
-            case "Ground":
-                if(this !=null)
-                rigi.useGravity = false;
-                break;
+            c_distance = Vector3.Distance(PlayerController.Player.transform.position, this.transform.position);
+          
         }
+      // neu xu cach Player < 2 thi xoa xu 
+        if (c_distance <2)
+        {
+            kill();
+        }
+    }
+     
+   void kill()
+    {
+        Destroy(gameObject);
+        Debug.Log("Kill");
     }
     
         

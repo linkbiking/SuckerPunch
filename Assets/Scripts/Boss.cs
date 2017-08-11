@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour {
     public static Boss Instance;
-    private Rigidbody rigi;
     public Transform Player_tran;
     private float dist;
     private Animator anim;
     private bool isWalking = false;
 	// Use this for initialization
 	void Start () {
-        rigi = GetComponent<Rigidbody>();
+       
         anim = GetComponent<Animator>();
 	}
     void Awake()

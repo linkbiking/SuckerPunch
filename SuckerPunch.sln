@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{17D9A93B-42CC-981E-B59A-36F5E78F1F7A}") = "SuckerPunch", "Assembly-CSharp.csproj", "{8B35EF50-814F-6D9A-59EC-61A5E8F6E3D9}"
+EndProject
+Project("{17D9A93B-42CC-981E-B59A-36F5E78F1F7A}") = "SuckerPunch", "Assembly-CSharp-Editor.csproj", "{3F8E30C7-B3AA-D262-D85F-925ECA7A36CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B35EF50-814F-6D9A-59EC-61A5E8F6E3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B35EF50-814F-6D9A-59EC-61A5E8F6E3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B35EF50-814F-6D9A-59EC-61A5E8F6E3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B35EF50-814F-6D9A-59EC-61A5E8F6E3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8E30C7-B3AA-D262-D85F-925ECA7A36CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8E30C7-B3AA-D262-D85F-925ECA7A36CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8E30C7-B3AA-D262-D85F-925ECA7A36CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8E30C7-B3AA-D262-D85F-925ECA7A36CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     }
 
     public Animator animator;
-    public GameObject Player;
+    public static GameObject Player;
     public GameObject sword;
     public GameObject gun;
 
@@ -74,8 +74,8 @@ public class PlayerController : MonoBehaviour
     public Transform coin;
     public Transform obstacle;
     public Transform endpoint;
-    private float map_x;
     public GameObject[] block;
+    public GameObject[] n_style;
 	public bool isRun = true;
 
     private Rigidbody m_rigidbody;
@@ -92,8 +92,8 @@ public class PlayerController : MonoBehaviour
         Instance = this;
         //call  obstacle len map A thang
         Instantiate(obstacle, new Vector3(14, 2, 0), Quaternion.identity);
+        Player = GameObject.Find("Player");
     }
-
     // Use this for initialization
     void Start()
     {
@@ -110,7 +110,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
+          
         
         //Make jump.
         //if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
@@ -164,24 +165,15 @@ public class PlayerController : MonoBehaviour
     // instance random 0-20 coin cho  moi 1 block ( block is  ground ) A Thang
     void callCoin()
     {
-      float  xcoin = Random.Range(0,7);
-      for (int i=0;i <xcoin; i++)
+       
+        int xpos = Random.Range(-13,13);
+        
+       for (int i=0;i < 20 ; i++)
         {
-            c_call();
+            Instantiate(n_style[Random.Range(0,4)], new Vector3(block[Random.Range(0,4)].transform.position.x + xpos,Mathf.Round(Random.Range(1f,6f)), 0), Quaternion.identity);
         }
     }
-    void c_call()
-    {
-        float xpos = Random.Range(-3,3);
-        Instantiate(coin, new Vector3(block[0].transform.position.x + xpos, 2, 0), Quaternion.identity);
-        Instantiate(coin, new Vector3(block[1].transform.position.x + xpos, 2, 0), Quaternion.identity);
-        Instantiate(coin, new Vector3(block[2].transform.position.x + xpos, 2, 0), Quaternion.identity);
-        Instantiate(coin, new Vector3(block[3].transform.position.x + xpos, 2, 0), Quaternion.identity);
-        Instantiate(coin, new Vector3(block[4].transform.position.x + xpos, 2, 0), Quaternion.identity);
-    }
       
-       
-   
     private void CheckFall()
     {
         if (this.m_rigidbody.velocity.y < -1)

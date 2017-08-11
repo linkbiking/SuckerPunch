@@ -22,9 +22,7 @@ public class GameManager : MonoBehaviour
             Instance = this;
         else if (Instance != null)
             Destroy(gameObject);
-
-       
-
+        
         gui_gameOver_group.SetActive(false);
         gui_win_group.SetActive(false);
     }
