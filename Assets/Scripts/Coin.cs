@@ -22,17 +22,8 @@ public class Coin : MonoBehaviour
       // neu xu cach Player < 2 thi xoa xu 
         if (c_distance <2)
         {
-            kill();
+            Destroy(gameObject);
         }
     }
-     
-   void kill()
-    {
-        Destroy(gameObject);
-        Debug.Log("Kill");
-    }
-    
-        
-      
-    
+ 
 }

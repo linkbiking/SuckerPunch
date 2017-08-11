@@ -166,11 +166,9 @@ public class PlayerController : MonoBehaviour
     void callCoin()
     {
        
-        int xpos = Random.Range(-13,13);
-        
        for (int i=0;i < 20 ; i++)
         {
-            Instantiate(n_style[Random.Range(0,4)], new Vector3(block[Random.Range(0,4)].transform.position.x + xpos,Mathf.Round(Random.Range(1f,6f)), 0), Quaternion.identity);
+            Instantiate(n_style[Random.Range(0, 4)], new Vector3(block[Random.Range(0, 4)].transform.position.x+Random.Range(-13,13), Mathf.Round(Random.Range(1,6)), 0), Quaternion.identity);
         }
     }
       
