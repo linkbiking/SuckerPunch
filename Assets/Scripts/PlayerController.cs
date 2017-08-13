@@ -228,7 +228,7 @@ public class PlayerController : MonoBehaviour
                 this.m_state = PLAYER_STATE.JUMP;
                 if (animator)
                 {
-                    animator.Play("Jump");
+                    animator.SetBool("Jump", true);
                     animator.SetBool("Fall", false);
                     //animator.SetTrigger("DoubleJump");
                     //animator.Play("Jump");

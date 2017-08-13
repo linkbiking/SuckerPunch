@@ -800,7 +800,7 @@ ModelImporter:
       name: jump up
       takeName: Take 001
       firstFrame: 70
-      lastFrame: 84
+      lastFrame: 82
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
