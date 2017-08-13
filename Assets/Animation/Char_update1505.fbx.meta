@@ -202,7 +202,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: Root_JNT
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -800,7 +800,7 @@ ModelImporter:
       name: jump up
       takeName: Take 001
       firstFrame: 70
-      lastFrame: 80
+      lastFrame: 84
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

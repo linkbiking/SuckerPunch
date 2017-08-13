@@ -26,7 +26,7 @@ public class Boss : MonoBehaviour {
         if(isWalking == true)
         {
             transform.position -= Vector3.right * 1.5f * Time.deltaTime;
-            Debug.Log("WAlk1231");
+         
         }
         if(dist <= 6)
         {
@@ -41,7 +41,7 @@ public class Boss : MonoBehaviour {
     }
     void come()
     {
-        if (dist <= 15 && dist >6)
+        if (dist <= 20 && dist >5)
         {
             anim.Play("Walk");
             isWalking = true;

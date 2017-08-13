@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public static PlayerController Instance;
-    
+   
     public enum PLAYER_STATE
     {
         READY,
@@ -73,7 +73,6 @@ public class PlayerController : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform coin;
     public Transform obstacle;
-    public Transform endpoint;
     public GameObject[] block;
     public GameObject[] n_style;
 	public bool isRun = true;
@@ -93,6 +92,8 @@ public class PlayerController : MonoBehaviour
         //call  obstacle len map A thang
         Instantiate(obstacle, new Vector3(14, 2, 0), Quaternion.identity);
         Player = GameObject.Find("Player");
+        //coin random / block ground
+        callCoin();
     }
     // Use this for initialization
     void Start()
@@ -103,16 +104,14 @@ public class PlayerController : MonoBehaviour
         TurnOffSword();
         TurnOffGun();
         Player = GameObject.Find("Player");
-        callCoin();
+        
         
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-          
-        
+
         //Make jump.
         //if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
         //{
@@ -134,44 +133,35 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.C))
         {
-            if(this.rage_state == RAGE_STATE.LOW)
+            if (this.rage_state == RAGE_STATE.LOW)
                 ChangeRageState(RAGE_STATE.MEDIUM);
             else if (this.rage_state == RAGE_STATE.MEDIUM)
                 ChangeRageState(RAGE_STATE.HIGH);
-            else 
+            else
                 ChangeRageState(RAGE_STATE.LOW);
         }
         else if (Input.GetKey(KeyCode.D))
         {
             //phiday();
-            
-            
+
+
         }
         else if (Input.GetKeyUp(KeyCode.D))
         {
-           
+            // StartCoroutine(StartRotate());
         }
-        
 
 
-       
+
         CheckFall();
         //run
 		if (m_state != PLAYER_STATE.DEATH && m_state != PLAYER_STATE.STOP && isRun)
             RunProcess();
-    
         
+
+
     }
-    // instance random 0-20 coin cho  moi 1 block ( block is  ground ) A Thang
-    void callCoin()
-    {
-       
-       for (int i=0;i < 20 ; i++)
-        {
-            Instantiate(n_style[Random.Range(0, 4)], new Vector3(block[Random.Range(0, 4)].transform.position.x+Random.Range(-13,13), Mathf.Round(Random.Range(1,6)), 0), Quaternion.identity);
-        }
-    }
-      
+ 
     private void CheckFall()
     {
         if (this.m_rigidbody.velocity.y < -1)
@@ -179,6 +169,8 @@ public class PlayerController : MonoBehaviour
             m_state = PLAYER_STATE.FALL;
             this.animator.SetBool("Fall",true);
             this.animator.SetBool("Jump", false);
+            
+           
             
             // this.animator.Play("Fall");
             
@@ -214,12 +206,11 @@ public class PlayerController : MonoBehaviour
     #endregion
 
     #region Private Method
-
+    
     public void JumpProcess()
     {
         if (m_state != PLAYER_STATE.DEATH && m_state != PLAYER_STATE.STOP && m_state != PLAYER_STATE.DOUBLE_JUMP )
         {
-
             m_rigidbody.velocity += Vector3.up * JUMP_FORCE;
             if (this.m_state == PLAYER_STATE.JUMP)
             {
@@ -237,7 +228,7 @@ public class PlayerController : MonoBehaviour
                 this.m_state = PLAYER_STATE.JUMP;
                 if (animator)
                 {
-                    animator.SetBool("Jump", true);
+                    animator.Play("Jump");
                     animator.SetBool("Fall", false);
                     //animator.SetTrigger("DoubleJump");
                     //animator.Play("Jump");
@@ -352,18 +343,35 @@ public class PlayerController : MonoBehaviour
     }
     private void SetupMediumState()
     {
-        scale_speed_state = 2;
+        scale_speed_state = 1.3f;
     }
     private void SetupHighState()
     {
-        scale_speed_state = 3;
+        scale_speed_state = 1.8f;
     }
 
 	public void Fire()
 	{
 		FireProcess ();
 	}
-    
-    
+
+
     #endregion
+
+    // xep coin instance random 20 hay 100  * 2 lane 1 tren va 1 duoi coin cho  moi 1 block ( block is  ground )  
+    void callCoin()
+    {
+        // bien' truc y vi tri cach nhau de nhin cho dep 
+        float[] y_one = { 1.5f, 2.5f, 3.5f, 4.5f };
+        float[] y_two = { 5, 6.2f, 7.1f, 8f, 8.9f };
+        int[] xOne = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 16, 17, 18, 19, 20, 21, 22, 23, 24 };
+
+        for (int i = 0; i < Random.Range(20, 100); i++)
+        {
+            Instantiate(n_style[0], new Vector3(block[Random.Range(0, 4)].transform.position.x - 12.75f + xOne[Random.Range(0, 24)], y_one[Random.Range(0, 3)]), Quaternion.identity);
+            Instantiate(n_style[0], new Vector3(block[Random.Range(0, 4)].transform.position.x - 12.75f + xOne[Random.Range(0, 24)], y_two[Random.Range(0, 4)]), Quaternion.identity);
+        }
+        if (block[Random.Range(0, 4)].transform.position.x > 133) { };
+    }
+    
 }
