@@ -199,7 +199,11 @@ public class PlayerController : MonoBehaviour
 			Debug.Log ("Death: " + this.name + " and with: " + other.gameObject.name);
                 PlayerDeathProcess();
                 break;
-           
+            
+              
+                
+
+
         }
 
     }
@@ -367,20 +371,24 @@ public class PlayerController : MonoBehaviour
         float[] y_two = { 5, 6.2f, 7.1f, 8f, 8.9f };
         int[] xOne = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 16, 17, 18, 19, 20, 21, 22, 23, 24 };
 
-        for (int i = 0; i < Random.Range(20, 100); i++)
+        for (int i = 0; i <Random.Range(20,100 ); i++)
         {
             Instantiate(n_style[0], new Vector3(block[Random.Range(0, 4)].transform.position.x - 12.75f + xOne[Random.Range(0, 24)], y_one[Random.Range(0, 3)]), Quaternion.identity);
             Instantiate(n_style[0], new Vector3(block[Random.Range(0, 4)].transform.position.x - 12.75f + xOne[Random.Range(0, 24)], y_two[Random.Range(0, 4)]), Quaternion.identity);
         }
         if (block[Random.Range(0, 4)].transform.position.x > 133) { };
     }
-   // time Cown down de tam an xu la len %
-   void OnTriggerEnter(Collider mCol)
+    // kill coin khi character di vao
+    void OnTriggerEnter(Collider mcol)
     {
-        if(mCol.gameObject.tag == "coin")
+        switch (mcol.gameObject.tag)
         {
-            msl.value = msl.value + 0.003f;
-        }
+            case "coin":
+                Destroy(mcol.gameObject);
+                msl.value = msl.value + medicine;
+             break;
+      }
     }
+    public static float medicine = 0.0025f;
     public UISlider msl;
 }
