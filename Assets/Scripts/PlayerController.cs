@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public static PlayerController Instance;
-   
     public enum PLAYER_STATE
     {
         READY,
@@ -92,6 +92,7 @@ public class PlayerController : MonoBehaviour
         //call  obstacle len map A thang
         Instantiate(obstacle, new Vector3(14, 2, 0), Quaternion.identity);
         Player = GameObject.Find("Player");
+      
         //coin random / block ground
         callCoin();
     }
@@ -202,7 +203,7 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-
+   
     #endregion
 
     #region Private Method
@@ -373,5 +374,13 @@ public class PlayerController : MonoBehaviour
         }
         if (block[Random.Range(0, 4)].transform.position.x > 133) { };
     }
-    
+   // time Cown down de tam an xu la len %
+   void OnTriggerEnter(Collider mCol)
+    {
+        if(mCol.gameObject.tag == "coin")
+        {
+            msl.value = msl.value + 0.003f;
+        }
+    }
+    public UISlider msl;
 }
