@@ -93,8 +93,9 @@ public class PlayerController : MonoBehaviour
         Instantiate(obstacle, new Vector3(14, 2, 0), Quaternion.identity);
         Player = GameObject.Find("Player");
       
-        //coin random / block ground
+        //coin  and call enemy random / block ground
         callCoin();
+        Enemi();
     }
     // Use this for initialization
     void Start()
@@ -363,18 +364,17 @@ public class PlayerController : MonoBehaviour
 
     #endregion
 
-    // xep coin instance random 20 hay 100  * 2 lane 1 tren va 1 duoi coin cho  moi 1 block ( block is  ground )  
+    // xep coin instance random 50 hay 350  * 2 lane 1 tren va 1 duoi coin cho  moi 1 block ( block is  ground )  
     void callCoin()
     {
         // bien' truc y vi tri cach nhau de nhin cho dep 
         float[] y_one = { 1.5f, 2.5f, 3.5f, 4.5f };
         float[] y_two = { 5, 6.2f, 7.1f, 8f, 8.9f };
-        int[] xOne = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 16, 17, 18, 19, 20, 21, 22, 23, 24 };
-
-        for (int i = 0; i <Random.Range(20,100 ); i++)
+               
+        for (int i = 0; i <Random.Range(50,350 ); i++)
         {
-            Instantiate(n_style[0], new Vector3(block[Random.Range(0, 4)].transform.position.x - 12.75f + xOne[Random.Range(0, 24)], y_one[Random.Range(0, 3)]), Quaternion.identity);
-            Instantiate(n_style[0], new Vector3(block[Random.Range(0, 4)].transform.position.x - 12.75f + xOne[Random.Range(0, 24)], y_two[Random.Range(0, 4)]), Quaternion.identity);
+            Instantiate(n_style[0], new Vector3(block[Random.Range(0, 17)].transform.position.x - 12.75f + Mathf.Round(Random.Range(0, 24)), y_one[Random.Range(0, 3)]), Quaternion.identity);
+            Instantiate(n_style[0], new Vector3(block[Random.Range(0, 17)].transform.position.x - 12.75f + Mathf.Round(Random.Range(0, 24)), y_two[Random.Range(0, 4)]), Quaternion.identity);
         }
         if (block[Random.Range(0, 4)].transform.position.x > 133) { };
     }
@@ -389,6 +389,19 @@ public class PlayerController : MonoBehaviour
              break;
       }
     }
-    public static float medicine = 0.0025f;
+    // bieen thuoc tang dien slide
+    public static float medicine = 0.01f;
     public UISlider msl;
+    
+    //call creep prefabs 
+
+    void Enemi()
+    {
+       
+       for (int i = 0; i < Random.Range(15,35 ); i++)
+        {
+            Instantiate(n_style[1], new Vector3(block[Random.Range(1, 17)].transform.position.x - 12.75f + Mathf.Round(Random.Range(0, 24)), Random.Range(1,10)), Quaternion.identity);
+            
+        }
+    }
 }
