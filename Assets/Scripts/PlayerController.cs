@@ -76,7 +76,8 @@ public class PlayerController : MonoBehaviour
     public GameObject[] block;
     public GameObject[] n_style;
 	public bool isRun = true;
-
+    public float fallMul ;
+    public float LowMul ;
     private Rigidbody m_rigidbody;
     private float m_speed;
 
@@ -113,8 +114,20 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        //Make jump better 
+        if(m_rigidbody.velocity.y < 0)
+        {
+            m_rigidbody.velocity += Vector3.up * Physics.gravity.y * (fallMul - 1) * Time.deltaTime;
+        }
+        else if (m_rigidbody.velocity.y > 0)
+        {
+            m_rigidbody.velocity += Vector3.up * Physics.gravity.y * (LowMul - 1) * Time.deltaTime;
+        }
+        
 
-        //Make jump.
+
+
         //if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
         //{
         //    Debug.Log("Jump");
@@ -169,7 +182,7 @@ public class PlayerController : MonoBehaviour
         if (this.m_rigidbody.velocity.y < -1)
         {
             m_state = PLAYER_STATE.FALL;
-            this.animator.SetBool("Fall",true);
+           
             this.animator.SetBool("Jump", false);
             
            
